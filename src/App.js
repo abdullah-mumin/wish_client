@@ -1,21 +1,7 @@
-import './App.css';
-import Footer from './Footer/Footer';
-import Reviews from './Reviews/Reviews';
-import Products from './Products/Products'
+import Home from "./Home/Home.js";
 function App() {
   return (
-    <>
-    <Products></Products>
-    <br />
-    <br />
-    <br />
-    <Reviews></Reviews>
-    <br />
-    <br />
-    <br />
-
-    <Footer></Footer>
-    </>
+    <Home/>
   );
 }
 

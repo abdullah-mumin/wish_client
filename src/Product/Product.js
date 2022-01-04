@@ -19,8 +19,8 @@ const Product = ({product}) => {
                       <p>{desc.slice(0, 80)}...</p>
                     </div>
                     <button className="button-green d-flex">Buy Now  <BsIcons.BsCartPlus className='m-1 ico'/></button>
-                    {/* <div class="m-3">
-                        <button onClick={() => handleBooking(service._id)} class="button-orange">Buy Now <i class="fa-solid fa-cart-plus ico"></i></button>
+                    {/* <div className="m-3">
+                        <button onClick={() => handleBooking(service._id)} className="button-orange">Buy Now <i className="fa-solid fa-cart-plus ico"></i></button>
                     </div> */}
                   </div>
                 </div>

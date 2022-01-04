@@ -15,9 +15,9 @@ const Products = () => {
 
     return (
         <Container>
-            <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-3">
+            <div className="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-3">
             {products?.map((product) => (
-              <Product kay={product._id} product={product} />
+              <Product key={product._id} product={product} />
             ))}
         </div>
         </Container>
