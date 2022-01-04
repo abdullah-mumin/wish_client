@@ -1,13 +1,11 @@
 import './App.css';
 import Footer from './Footer/Footer';
 import Reviews from './Reviews/Reviews';
-
+import Products from './Products/Products'
 function App() {
   return (
     <>
-    <br />
-    <br />
-    <br />
+    <Products></Products>
     <br />
     <br />
     <br />
@@ -15,9 +13,7 @@ function App() {
     <br />
     <br />
     <br />
-    <br />
-    <br />
-    <br />
+
     <Footer></Footer>
     </>
   );

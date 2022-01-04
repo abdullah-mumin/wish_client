@@ -1,0 +1,39 @@
+.button-green{
+    width: 135px;
+    margin-top: 10px;
+    padding-right: 0px;
+    border: 1px solid white;
+    color: white;
+    background-color: #5aee4d;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all linear .4s;
+}
+.button-green:hover {
+    width: 135px;
+    background-color:white ;
+    color: #5aee4d;
+    border: 1px solid #5aee4d;
+    transition: all linear .4s;
+}
+.button-green:hover .ico{
+    visibility: visible;
+}
+.ico{
+    margin: 0;
+    padding: 0;
+    visibility: hidden;
+}
+.card{
+    height: 380px;
+}
+.car-img{
+    width: 100%;
+    height: 150px;
+}
+.cstyle{
+    height: 450px;
+    width: 400px;
+}
