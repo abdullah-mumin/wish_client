@@ -12,7 +12,7 @@ const Review = ({ review }) => {
       <Container>
       <Card style={{height:'200px'}} className="container cardContainer">
         <div>
-        <div className="cs" >
+        <div className="cs">
           <div>
           {/* <Card.Img variant="top" src={!img} className="image-revw" /> */}
             <h2 className='text-2xl'>{name}</h2>

@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+import Home from "./Home/Home.js";
+function App() {
+  return (
+    <Home/>
+=======
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./assets/css/main.css";
 import Footer from "./components/Footer.js";
@@ -47,6 +53,7 @@ function App() {
         <Footer />
       </Router>
     </ContextProvider>
+>>>>>>> 7751a1c16c529b5314c4df4b23eddc30b6db41a2
   );
 }
 
