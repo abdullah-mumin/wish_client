@@ -11,14 +11,14 @@ const Product = ({product}) => {
         
         <div>
           <div className="col">
-                  <div className="card  border-0">
+                  <div className="card border-0">
                       <img className='car-img' src={img} alt='...'></img>
                     <div className="card-body">
                       <h3 className="card-title"><b>{title}</b></h3>
                       <h5>$ {price}</h5>
                       <p>{desc.slice(0, 80)}...</p>
                     </div>
-                    <button className="button-green d-flex">Buy Now  <BsIcons.BsCartPlus className='m-1 ico'/></button>
+                    <button className="button-green">Buy Now  <BsIcons.BsCartPlus className='m-1 ico'/></button>
                     {/* <div className="m-3">
                         <button onClick={() => handleBooking(service._id)} className="button-orange">Buy Now <i className="fa-solid fa-cart-plus ico"></i></button>
                     </div> */}
