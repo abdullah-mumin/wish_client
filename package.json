@@ -23,6 +23,13 @@
     "react": "^17.0.2",
     "react-bootstrap": "^2.1.0",
     "react-dom": "^17.0.2",
+<<<<<<< HEAD
+    "react-icons": "^4.3.1",
+>>>>>>> 7002c5f2fcd713c9d216154c48e204258d338999
+    "react-scripts": "5.0.0",
+    "react-slick": "^0.28.1",
+    "slick-carousel": "^1.8.1",
+=======
     "react-hot-toast": "^2.1.1",
     "react-icons": "^4.3.1",
 <<<<<<< HEAD
@@ -36,6 +43,7 @@
     "react-slick": "^0.28.1",
     "slick-carousel": "^1.8.1",
     "sweetalert2": "^11.3.3",
+>>>>>>> 2d170b67e47d89016faab96a6bc5c0bc50c2553f
     "web-vitals": "^2.1.2"
   },
   "scripts": {
